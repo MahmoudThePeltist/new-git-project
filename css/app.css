@@ -1,11 +1,44 @@
-body{
 
+html {
+    box-sizing: border-box;
 }
 
 header{
 	display: flex;
 	flex-direction: column;
+	width:80%;
+	margin: auto;
 	background-color:beige;
 	padding: 20px;
-	margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1300px;
+}
+
+.listing {
+	display: flex;
+    align-items: baseline;
+	flex-direction: column;
+	width:15%;
+	margin-top:1%;
+	margin-right:8%;
+	float:right;
+	background-color:beige;
+	padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+}
+.listing a {
+	margin: 5px;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	width:60%;
+	margin-top:1%;
+	margin-left:8%;
+	float:left;
+	background-color:beige;
+	padding: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    max-width: 1000px;
 }
