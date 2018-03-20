@@ -42,3 +42,7 @@ header{
     font-family: Georgia, Times, 'Times New Roman', serif;
     max-width: 1000px;
 }
+.text img{
+	width:500px;
+	margin:auto;
+}
