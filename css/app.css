@@ -1,3 +1,15 @@
 body {
     background-color: #00cae4;
 }
+
+footer {
+	width:90%;
+	background-color: #00caaa;
+	padding: 10px;
+	margin:auto;
+}
+
+.social-link img{
+	height: 100px;
+	width:100px;
+}
