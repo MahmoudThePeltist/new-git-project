@@ -2,11 +2,56 @@ body {
     background-color: #00cae4;
 }
 
-footer {
+header {
 	width:90%;
-	background-color: #00caaa;
+	background-color: #00aaaa;
 	padding: 10px;
 	margin:auto;
+}
+
+.description {
+	background-color: #00aa88;
+	padding: 10px;
+	margin-left:5%;
+	margin-right:25%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+.description img{
+	width: 90%;
+	height: auto;
+	margin:auto;
+}
+
+.sidebar-list {
+	float: right;
+	width: 15%;
+	height:100%;
+	padding: 10px;
+	margin-right:5%;
+	margin-top:5%;
+	margin-bottom:5%;
+	background-color: #00aaaa;
+}
+.sidebar-list-item {
+	display:inline-block;
+	width:100%;
+	padding:2px;
+	margin:0px;
+	font-family:calibri;
+	font-size:22px;
+	color: #001111;
+}
+.sidebar-list-item:hover {
+	background-color:#005555;
+	color: #00ffff;
+}
+
+footer {
+	width:90%;
+	padding: 10px;
+	margin:auto;
+	background-color: #00aaaa;
 }
 
 .social-link img{
