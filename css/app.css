@@ -41,10 +41,12 @@ header {
 	font-family:calibri;
 	font-size:22px;
 	color: #001111;
+	transition: transform 0.5s;
 }
 .sidebar-list-item:hover {
-	background-color:#005555;
+	font-size:28px
 	color: #00ffff;
+	background-color:#005555;	
 }
 
 footer {
